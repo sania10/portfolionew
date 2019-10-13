@@ -1,0 +1,72 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header
+{
+    background: url(bg1.jpg);
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar
+{
+    text-align:center;
+    padding:20px;
+}
+.navbar a
+{
+  text-decoration:none;
+  color:goldenrod;
+  font-size: 25px;
+  font-family: Tahoma;
+  margin-right:80px;  
+  border:2px solid transparent;
+  padding:10px;
+  transition:0.3s;
+}
+.navbar a:hover
+{
+    background:yellowgreen;
+    border:2px solid blue;
+}
+
+.head-content
+{
+    text-align:center;
+}
+.head-content img
+{
+    border-radius:50%;
+    border:2px solid red;
+    margin-top: 20px;
+}
+.head-content img:hover
+{
+    border:2px solid green;
+}
+
+.name
+{
+    cursor:pointer;
+    font-size:50px;
+    color:navy;
+    font-family: Algerian;
+}
+
+.desc
+{
+    cursor:default;
+    font-size:30px;
+    color:orange;
+    font-family: Harlow Solid;
+}
+
+
+
+
